@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*PRIMER SEGMENTO */
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3EBEB;
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    gap: 16px;
+}
+main{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+}
+.infoPersonal{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor1{
+    display: block;
+    margin-bottom: 6px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contenedor2{
+    display: block;
+    margin-bottom: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    font-size:medium;
+    font-weight: 700;
+}
+.FD{
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    color: gray;
+    font-weight: 500;
+}
+
+/*SEGUNDO SEGMENTO(PROGRESO)
+MODIFICAR TABLA, NOMBRE AL LADO*/
+.progreso{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+    align-items:baseline;
+}
+
+/*TERCER SEGMENTO (proyecto)*/
+.Proyectos{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+}
+.button{
+    overflow: hidden;
+}
+.clear{
+    clear: both;
+}
+
+/*CUARTO SEGMENTO (titulo)*/
+.tittl{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    padding: 8px;
+    gap: 24px;
+}
+/*QUINTO SEGMENTO (EXPERIENCIA)*/
+.Experiencia{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+}
+.contenedor_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 10px;
+    border: solid 1px gray;
+    border-radius: 12px;
+    padding: 25px;
+}
+.cuadro1 img{
+    display: flex;
+    padding: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+}
+.cuadro2{
+    color: gray;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*SEXTO S.(certificados)*/
+.Certificados{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background-color: white;
+    padding: 8px;
+    border-radius: 12px;
+}
